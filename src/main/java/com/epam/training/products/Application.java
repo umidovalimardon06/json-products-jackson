@@ -1,6 +1,6 @@
-package com.epam.training.shop;
+package com.epam.training.products;
 
-import com.epam.training.shop.domain.Product;
+import com.epam.training.products.domain.Product;
 
 import java.io.File;
 import java.util.List;
@@ -42,7 +42,7 @@ public class Application {
 
     private void printExpensive() {
         Product mostExpensiveProduct = productQueries.getTheMostExpensiveProduct();
-        System.out.println("Most Expensive Product: " + mostExpensiveProduct.toString());
+        System.out.println("The most Expensive Product: " + mostExpensiveProduct.toString());
     }
 
 }
